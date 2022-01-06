@@ -7,6 +7,10 @@
 
 import csv
 import os
+import datetime as dt
+
+now = dt.datetime.now()
+print("The time right now is ", now)
 
 file_to_load = os.path.join("Resources", "election_results.csv")
 file_to_save = os.path.join("Analysis", "election_analysis.txt")
