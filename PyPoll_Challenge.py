@@ -1,9 +1,3 @@
-##The data we need to retrieve
-# 1. The total number of votes cast
-# 2. A complete list of candidates who received votes
-# 3. THe percentage of votes each candidate won
-# 4. The total number of votes each candidate won
-# 5. The winner of the election based on the popular vote
 
 #import to read csv file
 import csv
@@ -96,6 +90,7 @@ with open(file_to_load,'r') as election_data:
             print(county_results)
             txt_file.write(county_results)
 
+        #Display for the county with the largest voter turnout
         voter_turnout = (
             f"\n------------------------\n"
             f"Largest County Turnout: {winning_county}"
