@@ -26,4 +26,4 @@ Finally, we can output all the relevant information regarding the results of the
 ## Election Audit Summary
 
 Thankfully the code we have written is reusable for implementation in future elections since we are reading in data from a csv file. 
-This could be used in a general election by switching from counties to states as long as the csv file contains election data for multiple states. 
+This could be used in a general election by switching from counties to states as long as the csv file contains election data for multiple states. Theoretically we should be able to have the user input their own vote. For example, if we wanted to get an idea of future elections before they take place, we could have voters write in their votes, store it to a csv file, then analyze the corresponding data. This would be extremely useful in identifying which areas of the state/country require more attention to secure more votes before the final election.
